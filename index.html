@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainWiz</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="alert">Alert</div>
+    <div class="btn startBtn">Start</div>
+    <div class="container">
+        <h1>Dive into the World of Quizzical Adventures!</h1>
+        <div class="question"></div>
+        <div class="choices"></div>
+        <button class="btn nextBtn">Next</button>
+        <button class="btn skipBtn">Skip</button>
+
+
+        <div class="scoreCard"></div>
+        <div class="timer"></div>
+        <audio id="wrongSound">
+            <source src="./sound/wrong.mp3" type="audio/mp3">
+        </audio>
+        <audio id="timeEndSound">
+            <source src="./sound/yellow.mp3" type="audio/mp3">
+        </audio>
+        <audio id="rightSound">
+            <source src="./sound/red.mp3" type="audio/mp3">
+        </audio>
+
+    </div>
+
+
+
+
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>
